@@ -1,0 +1,131 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plotNumber": "A-101",
+        "area": 1200,
+        "price": 2500000,
+        "status": "available"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [79.0878, 21.1454],
+            [79.0882, 21.1454],
+            [79.0882, 21.1458],
+            [79.0878, 21.1458],
+            [79.0878, 21.1454]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "plotNumber": "A-102",
+        "area": 1000,
+        "price": 2200000,
+        "status": "sold"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [79.0883, 21.1454],
+            [79.0887, 21.1454],
+            [79.0887, 21.1458],
+            [79.0883, 21.1458],
+            [79.0883, 21.1454]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "plotNumber": "A-103",
+        "area": 1500,
+        "price": 3200000,
+        "status": "available"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [79.0888, 21.1454],
+            [79.0893, 21.1454],
+            [79.0893, 21.1458],
+            [79.0888, 21.1458],
+            [79.0888, 21.1454]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "plotNumber": "A-104",
+        "area": 1200,
+        "price": 2500000,
+        "status": "hold"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [79.0878, 21.146],
+            [79.0882, 21.146],
+            [79.0882, 21.1464],
+            [79.0878, 21.1464],
+            [79.0878, 21.146]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "plotNumber": "A-105",
+        "area": 1000,
+        "price": 2200000,
+        "status": "available"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [79.0883, 21.146],
+            [79.0887, 21.146],
+            [79.0887, 21.1464],
+            [79.0883, 21.1464],
+            [79.0883, 21.146]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "plotNumber": "A-106",
+        "area": 1500,
+        "price": 3200000,
+        "status": "sold"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [79.0888, 21.146],
+            [79.0893, 21.146],
+            [79.0893, 21.1464],
+            [79.0888, 21.1464],
+            [79.0888, 21.146]
+          ]
+        ]
+      }
+    }
+  ]
+}

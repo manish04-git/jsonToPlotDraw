@@ -1,0 +1,69 @@
+.importBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  min-height: 42px;
+  padding: 0 16px;
+
+  border: 1px solid #5e3692;
+  border-radius: 9px;
+
+  background: #dca8c8;
+  color: #1e293b;
+
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+
+  box-shadow:
+    0 2px 6px rgba(15, 23, 42, 0.08);
+
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
+}
+
+.importBtn:hover {
+  background: #f8fafc;
+  border-color: #cbd5e1;
+
+  box-shadow:
+    0 4px 10px rgba(15, 23, 42, 0.1);
+
+  transform: translateY(-1px);
+}
+
+.importBtn:active {
+  background: #f1f5f9;
+  transform: translateY(0);
+}
+
+.importBtn:focus-visible {
+  outline: none;
+  border-color: #2563eb;
+
+  box-shadow:
+    0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 18px;
+  height: 18px;
+
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1;
+}
